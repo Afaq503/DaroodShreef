@@ -85,7 +85,7 @@
               </button>
               <p class="text-center">
                 Already have an account?
-                <router-link to="/">Login here</router-link>
+                <router-link to="/log">Login here</router-link>
               </p>
             </div>
           </form>
