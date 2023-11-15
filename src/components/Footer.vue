@@ -12,8 +12,8 @@
               <li><router-link to="/">Home</router-link></li>
               <li><router-link to="/about">About</router-link></li>
               <li><router-link to="/contact">Contact</router-link></li>
-              <li><router-link to="/Login">Login</router-link></li>
-              <li><router-link to="/Register">Register</router-link></li>
+              <li><router-link to="/log">Login</router-link></li>
+              <li><router-link to="/reg">Register</router-link></li>
             </ul>
           </div>
         </v-col>
@@ -69,7 +69,7 @@
 export default {
   methods: {
     hoverIcon(event) {
-      event.target.style.color = "black";
+      event.target.style.color = "green";
     },
     resetIcon(event) {
       event.target.style.color = "white";

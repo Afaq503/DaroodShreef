@@ -5,7 +5,9 @@
     <!-- Important News Section -->
     <div class="news-container">
       <h3 class="news-title">Important News</h3>
-      <marquee class="news-marquee">Hey, I am fine. Are you okay?</marquee>
+      <marquee class="news-marquee"
+        >Hey, I am fine. Are you okay? Important News</marquee
+      >
     </div>
 
     <!-- Carousel for Images -->

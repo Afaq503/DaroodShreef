@@ -2,8 +2,8 @@
   <div>
     <nav class="navbar">
       <div class="navbar-logo">
-        <img class="logo-img" :src="require('@/assets/DPB.png')" alt="Logo" />
-        <span class="stylish-title">Darood Sharif</span>
+        <img class="logo-img" :src="require('@/assets/DPB1.png')" alt="Logo" />
+        <span class="stylish-title">Darul Salat</span>
       </div>
       <div class="navbar-toggle" @click="toggleNav">&#9776;</div>
       <div class="navbar-links" :class="{ 'show-nav': showNav }">

@@ -5,7 +5,7 @@
       <div class="card">
         <div class="card-body">
           <div class="logo-container">
-            <img :src="require('@/assets/DPB.png')" alt="Logo" class="logo" />
+            <img :src="require('@/assets/DPB1.png')" alt="Logo" class="logo" />
           </div>
           <h5 class="card-title mb-4 text-center">Login</h5>
           <form @submit.prevent="loginAction">
