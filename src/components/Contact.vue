@@ -61,16 +61,19 @@
         </div>
       </div>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Navbar from "../components/NavBar.vue";
+import Footer from "../components/Footer.vue";
 
 export default {
   name: "ContactPage",
   components: {
     Navbar,
+    Footer,
   },
   data() {
     return {

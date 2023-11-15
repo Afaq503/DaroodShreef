@@ -97,11 +97,13 @@
 
 <script>
 import Navbar from "../components/NavBar.vue";
+import Footer from "../components/Footer.vue";
 
 export default {
   name: "RegisterPage",
   components: {
     Navbar,
+    Footer,
   },
   data() {
     return {

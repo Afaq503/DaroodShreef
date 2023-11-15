@@ -5,7 +5,13 @@ import Contact from "../components/Contact.vue";
 import HomeView from "../views/HomeView.vue";
 import Login from "../views/Login.vue";
 import Register from "../views/Register.vue";
+import Footer from "../components/Footer.vue";
 const routes = [
+  // {
+  //   path: "/",
+  //   name: "Footer",
+  //   component: Footer,
+  // },
   {
     path: "/log",
     name: "Login",

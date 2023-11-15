@@ -30,16 +30,19 @@
           cover></v-carousel-item>
       </v-carousel>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Navbar from "../components/NavBar.vue";
+import Footer from "../components/Footer.vue";
 
 export default {
   name: "HomeView",
   components: {
     Navbar,
+    Footer,
   },
   data() {
     return {};
@@ -49,6 +52,54 @@ export default {
 </script>
 
 <style scoped>
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-container {
+  flex: 1;
+  margin: 0 auto;
+  max-width: 80%; /* Adjust the max-width as needed */
+  padding: 0 1rem;
+}
+
+.carousel-container {
+  max-width: 100%;
+}
+
+.news-container {
+  text-align: center;
+  padding: 1rem;
+}
+
+.news-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.news-marquee {
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  .content-container {
+    max-width: 100%;
+  }
+
+  .news-title {
+    font-size: 1.2rem;
+  }
+
+  .news-marquee {
+    font-size: 0.8rem;
+  }
+}
+</style>
+<!-- <style scoped>
 .carousel-container {
   margin: 0 auto;
   max-width: 80%; /* Adjust the max-width as needed */
@@ -88,4 +139,4 @@ export default {
     font-size: 0.8rem;
   }
 }
-</style>
+</style> -->
